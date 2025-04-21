@@ -10,7 +10,7 @@ namespace Week_2_3
     {
         static void Main(string[] args)
         {
-            int F, C;
+            int F, C; // int for celcius and fehernite
             Console.WriteLine("Welcome to Temperature Converter");// Calcucaltor
             Console.WriteLine("Enter the temperature: "); // enter the tempature
             F = Convert.ToInt32(Console.ReadLine());
