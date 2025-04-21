@@ -10,9 +10,9 @@ namespace Week_2_3
     {
         static void Main(string[] args)
         {
-            int F, C; // int for celcius and fehernite
-            Console.WriteLine("Welcome to Temperature Converter");// Calcucaltor
-            Console.WriteLine("Enter the temperature: "); // enter the tempature
+            int F, C; // the objects to find Fahrenheit to Celsius 
+            Console.WriteLine("Welcome to Temperature Converter");// The introduction of the calculator to find Fahrenheit to Celsius 
+            Console.WriteLine("Enter the temperature: "); // input a number for Fahrenheit so it can turn into Celsius degrees
             F = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine(C = (F-32) * 5/9); // get total for Celcius
