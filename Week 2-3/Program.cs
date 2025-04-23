@@ -15,10 +15,10 @@ namespace Week_2_3
             Console.WriteLine("Enter the temperature: "); // input a number for Fahrenheit so it can turn into Celsius degrees
             F = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine(C = (F-32) * 5/9); // get total for Celcius
-            Console.WriteLine($"{F} Fernite to {C} Celsius"); // read result
+            Console.WriteLine(C = (F-32) * 5/9); // The equation to find the total celcius
+            Console.WriteLine($"{F} Fernite to {C} Celsius"); // the full results from fahrenheit to celsius
 
-            Console.ReadLine(); // readline
+            Console.ReadLine(); // Read Line
         }
     }
 }
